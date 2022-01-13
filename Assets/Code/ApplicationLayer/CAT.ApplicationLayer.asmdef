@@ -2,7 +2,8 @@
     "name": "CAT.ApplicationLayer",
     "rootNamespace": "",
     "references": [
-        "GUID:323d6400dd1803c4da4ec5070ce93545"
+        "GUID:323d6400dd1803c4da4ec5070ce93545",
+        "GUID:2ca70978939472c4c96b63797e44565f"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
