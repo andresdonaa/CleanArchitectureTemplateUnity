@@ -2,7 +2,8 @@
     "name": "CAT.View",
     "rootNamespace": "",
     "references": [
-        "GUID:3f9a4294067ac89418a56ce29a81d6dc"
+        "GUID:3f9a4294067ac89418a56ce29a81d6dc",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

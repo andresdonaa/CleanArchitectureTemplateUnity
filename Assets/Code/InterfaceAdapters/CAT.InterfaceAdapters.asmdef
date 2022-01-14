@@ -2,7 +2,8 @@
     "name": "CAT.InterfaceAdapters",
     "rootNamespace": "",
     "references": [
-        "GUID:323d6400dd1803c4da4ec5070ce93545"
+        "GUID:323d6400dd1803c4da4ec5070ce93545",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

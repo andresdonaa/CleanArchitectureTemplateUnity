@@ -1,18 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using UniRx;
 
-public class ShipViewModel : MonoBehaviour
+public class ShipViewModel
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public readonly ReactiveProperty<bool> IsVisible;
 
-    // Update is called once per frame
-    void Update()
+    public ShipViewModel()
     {
-        
+        IsVisible = new BoolReactiveProperty(true);
     }
 }

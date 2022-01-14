@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ShipPresenter : MonoBehaviour
+public class ShipPresenter : IToggleShipVisibilityOutputBoundary
 {
-    // Start is called before the first frame update
-    void Start()
+    private readonly ShipViewModel shipViewModel;
+
+    public ShipPresenter(ShipViewModel shipViewModel)
     {
-        
+        this.shipViewModel = shipViewModel;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ToggleVisibility()
     {
-        
+        shipViewModel.IsVisible.Value = !shipViewModel.IsVisible.Value;
     }
 }
+
